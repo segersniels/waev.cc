@@ -1,0 +1,70 @@
+.container {
+  @apply flex
+    flex-1
+    justify-center
+    items-center;
+}
+
+.wrapper {
+  @apply flex
+    flex-1
+    flex-col
+    items-center;
+}
+
+.title {
+  @apply text-5xl
+    font-extrabold
+    tracking-[-0.05em]
+    text-center;
+}
+
+.description {
+  @apply mt-10
+    text-xl
+    font-medium
+    bg-gradient-from
+    bg-gradient-to-tr
+    from-gradient-from
+    to-gradient-to
+    bg-clip-text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.icon {
+  @apply text-xl
+    inline-block
+    -ml-2
+    -mr-1;
+}
+
+.divider {
+  @apply absolute
+    inset-0
+    shadow-lg
+    transform
+    -skew-y-6
+    sm:skew-y-0
+    sm:-rotate-6;
+}
+
+@screen md {
+  .wrapper {
+    @apply w-[35%];
+  }
+
+  .title {
+    @apply text-7xl;
+  }
+
+  .description {
+    @apply text-2xl;
+  }
+
+  .icon {
+    @apply text-4xl
+      -ml-3
+      -mr-2;
+  }
+}
