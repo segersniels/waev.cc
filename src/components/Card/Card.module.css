@@ -10,9 +10,6 @@
     inset-0
     shadow-lg
     transform
-    -skew-y-6
-    sm:skew-y-0
-    sm:-rotate-6
     sm:rounded-3xl
     bg-gradient-to-tr
     from-gradient-from
@@ -34,4 +31,10 @@
 .content {
   @apply flex
     justify-center;
+}
+
+@screen sm {
+  .backdrop {
+    transform: rotate(-6deg);
+  }
 }
