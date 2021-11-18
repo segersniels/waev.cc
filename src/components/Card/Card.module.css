@@ -14,7 +14,6 @@
     sm:skew-y-0
     sm:-rotate-6
     sm:rounded-3xl
-    bg-gradient-from
     bg-gradient-to-tr
     from-gradient-from
     to-gradient-to
@@ -26,8 +25,6 @@
     justify-center
     items-center
     relative
-    px-4
-    py-10
     bg-white
     shadow-lg
     sm:rounded-3xl
