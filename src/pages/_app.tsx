@@ -12,14 +12,15 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
+        <title>{title}</title>
         <meta key="og:title" property="og:title" content={title} />
+        <meta key="twitter:title" property="twitter:title" content={title} />
+
         <meta
           key="og:description"
           property="og:description"
           content={description}
         />
-
-        <meta key="twitter:title" property="twitter:title" content={title} />
         <meta
           key="twitter:description"
           property="twitter:description"
