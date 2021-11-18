@@ -14,7 +14,8 @@
 }
 
 .title {
-  @apply md:text-7xl
+  @apply text-5xl
+    md:text-7xl
     font-extrabold
     tracking-[-0.05em]
     text-center;
