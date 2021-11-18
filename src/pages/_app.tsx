@@ -6,7 +6,7 @@ import Head from 'next/head';
 import React from 'react';
 
 const title = 'waev';
-const description = 'Waev your unwanted email goodbye 👋';
+const description = 'Wave your unwanted email goodbye 👋';
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
