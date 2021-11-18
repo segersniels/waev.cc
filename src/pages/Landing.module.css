@@ -30,7 +30,8 @@
     bg-gradient-to-tr
     from-gradient-from
     to-gradient-to
-    bg-clip-text;
+    bg-clip-text
+    text-center;
 
   -webkit-text-fill-color: transparent;
 }

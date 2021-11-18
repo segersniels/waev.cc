@@ -16,7 +16,7 @@ const Landing = () => {
               unwanted email goodbye 👋
             </h1>
             <p className={styles.description}>
-              Electron email client, coming soon
+              Easy to use and aesthetically pleasing email client, coming soon!
             </p>
           </div>
         </Card>
