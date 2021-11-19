@@ -1,0 +1,34 @@
+.container {
+  @apply flex
+    flex-1
+    flex-col
+    items-center
+    justify-center;
+}
+
+.wrapper {
+  @apply flex
+    flex-col
+    items-center
+    sm:max-w-xl;
+}
+
+.title {
+  @apply text-5xl
+    md:text-7xl
+    font-bold;
+}
+
+.description {
+  @apply mt-5
+    text-2xl
+    font-medium
+    sm:max-w-md
+    text-center;
+}
+
+.info {
+  @apply text-lg
+    font-light
+    mt-4;
+}

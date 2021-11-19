@@ -1,3 +1,4 @@
+import Waitlist from 'components/@pages/Landing/Waitlist';
 import Card from 'components/Card';
 import Layout from 'components/Layout';
 import React from 'react';
@@ -19,6 +20,8 @@ const Landing = () => {
               Easy to use and aesthetically pleasing email client, coming soon!
             </p>
           </div>
+
+          <Waitlist className={styles.waitlist} />
         </Card>
       </div>
     </Layout>

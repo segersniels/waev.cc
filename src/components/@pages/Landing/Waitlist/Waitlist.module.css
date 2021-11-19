@@ -1,0 +1,38 @@
+.container {
+  @apply flex
+    flex-1
+    items-center;
+}
+
+.wrapper {
+  @apply flex
+    items-center
+    flex-col
+    md:flex-row;
+}
+
+.input {
+  @apply flex-1
+    h-9
+   bg-gray-100
+    rounded-2xl
+    px-4
+    font-medium
+    text-gray-500;
+}
+
+.button {
+  @apply h-9
+    mt-2
+    md:ml-2
+    md:mt-0
+    px-4
+    opacity-70
+    rounded-2xl
+    font-semibold
+    text-white
+    bg-gradient-to-tr
+    from-gradient-from
+    to-gradient-to
+    cursor-pointer;
+}

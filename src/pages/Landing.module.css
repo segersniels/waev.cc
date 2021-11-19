@@ -1,6 +1,7 @@
 .container {
   @apply flex
     flex-1
+    flex-col
     justify-center
     items-center;
 }
@@ -9,8 +10,7 @@
   @apply flex
     flex-1
     flex-col
-    items-center
-    md:w-[35%];
+    items-center;
 }
 
 .title {
@@ -22,7 +22,8 @@
 }
 
 .description {
-  @apply mt-10
+  @apply flex-1
+    mt-10
     text-xl
     md:text-2xl
     font-medium
@@ -44,4 +45,8 @@
     md:text-4xl
     md:-ml-3
     md:-mr-2;
+}
+
+.waitlist {
+  @apply mt-10;
 }
