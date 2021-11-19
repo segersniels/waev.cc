@@ -19,7 +19,13 @@
 .title {
   @apply text-5xl
     md:text-7xl
-    font-bold;
+    font-bold
+    bg-gradient-to-tr
+    from-gradient-from
+    to-gradient-to
+    bg-clip-text;
+
+  -webkit-text-fill-color: transparent;
 }
 
 .description {
