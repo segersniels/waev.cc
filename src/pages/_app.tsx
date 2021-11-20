@@ -21,7 +21,9 @@ const App = ({ Component, pageProps }: AppProps) => {
         <title>{title}</title>
         <meta key="og:title" property="og:title" content={title} />
         <meta key="twitter:title" property="twitter:title" content={title} />
+        <meta key="og:sitename" property="og:sitename" content={title} />
 
+        <meta key="description" property="description" content={description} />
         <meta
           key="og:description"
           property="og:description"
@@ -32,6 +34,9 @@ const App = ({ Component, pageProps }: AppProps) => {
           property="twitter:description"
           content={description}
         />
+
+        <link key="canonical" rel="canonical" href="https://waev.cc" />
+        <meta key="og:url" property="og:url" content="https://waev.cc" />
       </Head>
 
       <Component {...pageProps} />
