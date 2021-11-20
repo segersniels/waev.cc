@@ -34,11 +34,11 @@ const App = ({ Component, pageProps }: AppProps) => {
           property="twitter:description"
           content={description}
         />
-        <meta key="twitter:card" property="twitter:card" content="summary" />
 
         <link key="canonical" rel="canonical" href="https://waev.cc" />
         <meta key="og:url" property="og:url" content="https://waev.cc" />
 
+        <meta key="twitter:card" property="twitter:card" content="summary" />
         <meta
           property="og:image"
           content="https://waev.cc/images/twitter.png"
