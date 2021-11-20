@@ -63,7 +63,8 @@
     my-10
     bg-gradient-to-tr
     from-gradient-from
-    to-gradient-to;
+    to-gradient-to
+    opacity-50;
 
   transform: rotate(-2deg);
 }
