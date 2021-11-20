@@ -1,0 +1,37 @@
+{
+  "head": {
+    "title": "waev",
+    "description": "Wave your unwanted email goodbye 👋"
+  },
+  "dev": {
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet lectus eu leo convallis aliquet id sit amet nibh. Nam vestibulum lacinia placerat. Integer egestas dictum sapien, quis ultrices lorem maximus eget. Aliquam ante est, placerat quis scelerisque a, posuere sed leo. Curabitur interdum lobortis lectus id rhoncus. Aliquam nec mollis ante. Praesent consectetur leo nisl, eget aliquet purus mollis at. Ut lorem ex, mattis sit amet convallis ut, bibendum in nisi. Donec malesuada tincidunt sem id posuere. Sed a eros lectus. Quisque ipsum mauris, rhoncus sit amet euismod in, gravida quis ligula."
+  },
+  "landing": {
+    "description": "Easy to use and aesthetically pleasing email client, coming soon!",
+    "waitlist": {
+      "input": {
+        "placeholder": "email address"
+      },
+      "button": "Get early access"
+    },
+    "info": {
+      "vision": {
+        "title": "Reading mail should be enjoyable",
+        "text": [
+          "What do you do when you're browsing through your social media apps like Instagram, Twitter, TikTok, Reddit, etc.? You browse content.\n",
+          "Reading your mails should be about reading and enjoying the content that they provide, not the hassle that they currently are."
+        ]
+      },
+      "what": {
+        "title": "What it is",
+        "features": {
+          "reinvent": "Doesn't try to reinvent the wheel but just tries to improve the experience.",
+          "basic": "Just the right amount of functionality and easy to use.",
+          "gather": "Gather all your mail from all your accounts in one place.",
+          "storage": "Everything is stored on your device by default, so no outside security leaks.",
+          "accounts": "Allthough if a lot of people are interested, we can provide the option to use accounts to sync between your devices."
+        }
+      }
+    }
+  }
+}

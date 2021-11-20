@@ -1,4 +1,5 @@
 import cx from 'classnames';
+import translations from 'helpers/translations';
 import React from 'react';
 
 import styles from './Waitlist.module.css';
@@ -23,14 +24,14 @@ const Waitlist = (props: React.FormHTMLAttributes<HTMLFormElement>) => {
           type="email"
           name="EMAIL"
           id="EMAIL"
-          placeholder="email address"
+          placeholder={translations.t('landing.waitlist.input.placeholder')}
           required
           className={styles.input}
         />
 
         <input
           type="submit"
-          value="Get early access"
+          value={translations.t('landing.waitlist.button')}
           name="subscribe"
           className={styles.button}
         />

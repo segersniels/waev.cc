@@ -1,0 +1,44 @@
+.container {
+  @apply flex
+    items-center
+    flex-col
+    w-full
+    my-5
+    mx-auto
+    text-center;
+}
+
+.title {
+  @apply text-5xl
+    font-bold
+    tracking-tighter;
+}
+
+.text {
+  @apply mt-4
+    text-xl
+    max-w-3xl;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI',
+    'Helvetica Neue', 'Lucida Grande', sans-serif;
+
+  & ul {
+    @apply list-inside
+      list-none
+      space-y-2;
+  }
+
+  & ul li::before {
+    @apply font-bold
+      inline-block
+      w-4
+      -ml-4
+      bg-gradient-to-tr
+      from-gradient-from
+      to-gradient-to
+      bg-clip-text;
+
+    content: '\2022';
+    -webkit-text-fill-color: transparent;
+  }
+}

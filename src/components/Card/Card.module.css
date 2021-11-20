@@ -7,10 +7,9 @@
 
 .backdrop {
   @apply absolute
-    inset-0
-    shadow-lg
-    transform
-    rounded-3xl
+    sm:inset-0
+    sm:shadow-lg
+    sm:rounded-3xl
     bg-gradient-to-tr
     from-gradient-from
     to-gradient-to
@@ -25,9 +24,9 @@
     items-center
     relative
     bg-white
-    shadow-lg
+    sm:shadow-lg
     rounded-3xl
-    p-20;
+    sm:p-20;
 }
 
 .content {

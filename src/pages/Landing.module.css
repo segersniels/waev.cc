@@ -1,9 +1,13 @@
 .container {
   @apply flex
     flex-1
-    flex-col
-    justify-center
-    items-center;
+    flex-col;
+}
+
+.card {
+  @apply mb-4
+    sm:mt-8
+    sm:mb-32;
 }
 
 .wrapper {
@@ -17,7 +21,7 @@
   @apply text-5xl
     md:text-7xl
     font-extrabold
-    tracking-[-0.05em]
+    tracking-tighter
     text-center;
 }
 
@@ -27,12 +31,12 @@
     text-xl
     md:text-2xl
     font-medium
-    bg-gradient-from
     bg-gradient-to-tr
     from-gradient-from
     to-gradient-to
     bg-clip-text
-    text-center;
+    text-center
+    tracking-tighter;
 
   -webkit-text-fill-color: transparent;
 }
@@ -49,4 +53,17 @@
 
 .waitlist {
   @apply mt-10;
+}
+
+.divider {
+  @apply text-white
+    self-center
+    w-96
+    h-[0.2rem]
+    my-10
+    bg-gradient-to-tr
+    from-gradient-from
+    to-gradient-to;
+
+  transform: rotate(-2deg);
 }

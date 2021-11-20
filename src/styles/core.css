@@ -1,5 +1,6 @@
 html {
-  @apply box-border antialiased overflow-y-scroll;
+  @apply box-border
+    antialiased;
 
   text-rendering: optimizeLegibility;
 }
@@ -12,28 +13,11 @@ html {
   box-sizing: inherit;
 }
 
-input,
-textarea,
-button,
-select {
-  @apply rounded-none;
-
-  appearance: none;
-  outline: 0;
-
-  &[type='checkbox'] {
-    appearance: checkbox;
-  }
-}
-
 html,
 body,
 [id='__next'] {
   @apply flex
-    h-full
     w-full
-    overflow-x-hidden
-    overflow-y-auto
     text-black;
 
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'San Francisco',

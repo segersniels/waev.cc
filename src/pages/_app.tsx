@@ -1,14 +1,15 @@
 import 'styles/global.css';
 import 'styles/core.css';
 
+import translations from 'helpers/translations';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 
-const title = 'waev';
-const description = 'Wave your unwanted email goodbye 👋';
-
 const App = ({ Component, pageProps }: AppProps) => {
+  const title = translations.t('head.title');
+  const description = translations.t('head.description');
+
   return (
     <>
       <Head>
