@@ -38,6 +38,11 @@ const App = ({ Component, pageProps }: AppProps) => {
 
         <link key="canonical" rel="canonical" href="https://waev.cc" />
         <meta key="og:url" property="og:url" content="https://waev.cc" />
+
+        <meta
+          property="og:image"
+          content="https://waev.cc/images/twitter.png"
+        />
       </Head>
 
       <Component {...pageProps} />
