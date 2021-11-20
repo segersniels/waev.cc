@@ -41,7 +41,7 @@ const Landing = () => {
             <li>{translations.t('landing.info.what.features.basic')}</li>
             <li>{translations.t('landing.info.what.features.gather')}</li>
             <li>{translations.t('landing.info.what.features.storage')}</li>
-            <li>{translations.t('landing.info.what.features.accounts')}</li>
+            <li>{translations.t('landing.info.what.features.quiet')}</li>
           </ul>
         </Info>
       </div>

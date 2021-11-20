@@ -29,7 +29,7 @@
           "basic": "Just the right amount of functionality and easy to use.",
           "gather": "Gather all your mail from all your accounts in one place.",
           "storage": "Everything is stored on your device by default, so no outside security leaks.",
-          "accounts": "Allthough if a lot of people are interested, we can provide the option to use accounts to sync between your devices."
+          "quiet": "Quiet by default, you decide which emails you get notified about."
         }
       }
     }
