@@ -2,7 +2,7 @@ import Info from 'components/@pages/Landing/Info';
 import Waitlist from 'components/@pages/Landing/Waitlist';
 import Card from 'components/Card';
 import Layout from 'components/Layout';
-import translations from 'helpers/translations';
+import translations from 'lib/translations';
 import React from 'react';
 import { HiOutlineSwitchHorizontal } from 'react-icons/hi';
 
