@@ -1,4 +1,5 @@
 import Layout from 'components/Layout';
+import translations from 'lib/translations';
 import Router from 'next/router';
 import React, { useEffect } from 'react';
 
@@ -22,16 +23,11 @@ const Thanks = () => {
     <Layout>
       <div className={styles.container}>
         <div className={styles.wrapper}>
-          <h1 className={styles.title}>Waitlist Joined</h1>
-          <p className={styles.description}>
-            Thank you for signing up for early access! Once the product is
-            available for testing you will get notified 👋
-          </p>
+          <h1 className={styles.title}>{translations.t('thanks.title')}</h1>
+          <p className={styles.description}>{translations.t('thanks.text')}</p>
         </div>
 
-        <p className={styles.info}>
-          Redirecting to the main page in 5 seconds...
-        </p>
+        <p className={styles.info}>{translations.t('thanks.info')}</p>
       </div>
     </Layout>
   );

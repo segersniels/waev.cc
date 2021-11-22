@@ -33,5 +33,10 @@
         }
       }
     }
+  },
+  "thanks": {
+    "title": "Waitlist Joined",
+    "text": "Thank you for signing up for early access! Once the product is available for testing you will get notified 👋",
+    "info": "Redirecting to the main page in 5 seconds..."
   }
 }
