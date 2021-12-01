@@ -1,7 +1,7 @@
 import 'styles/global.css';
 import 'styles/core.css';
 
-import translations from 'helpers/translations';
+import translations from 'lib/translations';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
