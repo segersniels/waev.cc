@@ -1,5 +1,5 @@
 import cx from 'classnames';
-import translations from 'helpers/translations';
+import translations from 'lib/translations';
 import React from 'react';
 
 import styles from './Waitlist.module.css';
