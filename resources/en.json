@@ -25,8 +25,8 @@
       "what": {
         "title": "What is it?",
         "features": {
+          "less": "Less buzz, enjoy your content as it should be experienced.",
           "reinvent": "Doesn't try to reinvent the wheel but just tries to improve the experience of what an email client should be.",
-          "basic": "Basic and easy to navigate user experience.",
           "gather": "Gather all your mail from all your accounts in one place.",
           "storage": "Everything is stored on your device by default, so no outside security leaks.",
           "quiet": "Quiet by default, you decide which emails you get notified about."
