@@ -38,9 +38,6 @@ const Landing = () => {
         <Info title={translations.t('landing.info.what.title')}>
           <ul>
             <li>{translations.t('landing.info.what.features.less')}</li>
-            <li>{translations.t('landing.info.what.features.reinvent')}</li>
-            <li>{translations.t('landing.info.what.features.gather')}</li>
-            <li>{translations.t('landing.info.what.features.storage')}</li>
             <li>{translations.t('landing.info.what.features.quiet')}</li>
           </ul>
         </Info>

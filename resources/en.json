@@ -18,17 +18,15 @@
       "vision": {
         "title": "Reading mail should be enjoyable",
         "text": [
-          "What do you do when you're browsing through your social media apps like Instagram, Twitter, TikTok, Reddit, etc.? You browse content.\n",
-          "Reading your mails should be about reading and enjoying the content that they provide, not the hassle that they currently are."
+          "Browsing content.",
+          "That's what you do while using your social media apps like Instagram, Twitter, TikTok, Reddit, etc. You browse content.",
+          "Reading email should be about consuming and enjoying the content that they provide, not the hassle that they tend to be."
         ]
       },
       "what": {
         "title": "What is it?",
         "features": {
-          "less": "Less buzz, enjoy your content as it should be experienced.",
-          "reinvent": "Doesn't try to reinvent the wheel but just tries to improve the experience of what an email client should be.",
-          "gather": "Gather all your mail from all your accounts in one place.",
-          "storage": "Everything is stored on your device by default, so no outside security leaks.",
+          "less": "Less is more, enjoy your content as it should be experienced.",
           "quiet": "Quiet by default, you decide which emails you get notified about."
         }
       }
